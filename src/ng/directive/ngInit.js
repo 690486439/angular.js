@@ -10,7 +10,7 @@
  * current scope.
  *
  * <div class="alert alert-danger">
- * This directive can be abused to add unnecesary amounts of logic into your templates.
+ * This directive can be abused to add unnecessary amounts of logic into your templates.
  * There are only a few appropriate uses of `ngInit`, such as for aliasing special properties of
  * {@link ng.directive:ngRepeat `ngRepeat`}, as seen in the demo below; and for injecting data via
  * server side scripting. Besides these few cases, you should use {@link guide/controller controllers}
@@ -31,7 +31,7 @@
  * @param {expression} ngInit {@link guide/expression Expression} to eval.
  *
  * @example
-   <example module="initExample">
+   <example module="initExample" name="ng-init">
      <file name="index.html">
    <script>
      angular.module('initExample', [])
